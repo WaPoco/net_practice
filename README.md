@@ -2,8 +2,8 @@
 This is an exercise about the basics of TCP/IP addressing.
 
 # Questions
-What is TCP?
-It's a protcol ...
+## What is TCP?
+The transmission Control Protocol (TCP) is set of rules how to send data to another computer. 
 What is the subnetmask?
 The subnetmask is a 32 bit long number and useful to calculate the ip range .
 
