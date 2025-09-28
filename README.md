@@ -17,7 +17,8 @@ Consists of different protocols that are necessary to communicate between applic
 
 ***Transport layer***:
 
-Protocolls that ensures transmision of datapackets like TCP or UDP
+Protocolls that ensures delivery of data packets between applications on different devices:
+Most common are TCP or UDP. TCP is more reliable because it ensures the delivery of data packets. On the other side UPD (User Datagram protocol) is faster but doesn't garantee the arrival in the rigth order. The use cases for UDP: Streaming (video/audio), online gaming, VoIP, DNS.
 
 **Internet layer**:
 
