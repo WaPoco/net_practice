@@ -5,11 +5,17 @@ The goal of this project was to familiarize ourselves with IP addressing within 
 # What is TCP/IP model?
 It's a framework of protocols that ensures the transmission of data across networks (including the internet). The communication protocols are organized in 4 layers of different purpose: **Application, Transport, Internet, and Network Access**.
 
-**Application layer**:
+**Application Layer**
 
-Consist of different specific protocolls like FTP, HTTPS, HTTP, ... and on the application context (Website, Email, Files)
+Consists of different protocols that are necessary to communicate between applications across a network:  
 
-**Transport layer**:
+- **Web**: Browser ↔ Webserver (`HTTP`, `HTTPS`)  
+- **Email**: Mail client ↔ Mail server (`SMTP`, `IMAP`, `POP3`)  
+- **File transfer**: Client ↔ Server (`FTP`, `SFTP`)  
+- **Remote connection**: Admin ↔ Server (`SSH`)  
+
+
+***Transport layer***:
 
 Protocolls that ensures transmision of datapackets like TCP or UDP
 
