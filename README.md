@@ -3,15 +3,23 @@ The goal of this project was to familiarize ourselves with IP addressing within 
 ![Level 3](https://raw.githubusercontent.com/WaPoco/net_practice/main/net_practice.1.6/net_practice/netpractice.png)
 
 # What is TCP/IP model?
-It's a framework with 4 layers.
+It's a framework of protocols that ensures the transmission of data across networks (including the internet). The communication protocols are organized in 4 layers of different purpose: **Application, Transport, Internet, and Network Access**.
 
--**Application layer** - Consist of different specific protocolls like FTP, HTTPS, HTTP, ... and on the application context (Website, Email, Files)
+**Application layer**:
 
--**Transport layer** - Protocolls that ensures transmision of datapackets like TCP or UDP
+Consist of different specific protocolls like FTP, HTTPS, HTTP, ... and on the application context (Website, Email, Files)
 
--**Internet layer** - takes care of the adressing and routing with the IP protocoll
+**Transport layer**:
 
--**Network access layer** - physical transmission (Wi-fi, ethernet)
+Protocolls that ensures transmision of datapackets like TCP or UDP
+
+**Internet layer**:
+
+takes care of the adressing and routing with the IP protocoll
+
+**Network access layer**:
+
+physical transmission (Wi-fi, ethernet)
 ### Example:
 
 You watching a video on a website.
