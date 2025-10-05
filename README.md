@@ -20,9 +20,11 @@ Consists of different protocols that are necessary to communicate between applic
 Protocolls that ensures delivery of data packets between applications on different devices:
 Most common are TCP or UDP. TCP is more reliable because it ensures the delivery of data packets. On the other side UPD (User Datagram protocol) is faster but doesn't garantee the arrival in the rigth order. The use cases for UDP: Streaming (video/audio), online gaming, VoIP, DNS.
 
-**Internet layer**:
-
-takes care of the adressing and routing with the IP protocoll
+***Internet layer***:
+In a network the internet protocol IP asigns each device a unique logical address (IP address). In order to send data to the destination a router builds bridges between networks and routs the data to the destination. The core functionality of this layer is to pick a route and deliver the packet with IPv4 or IPv6.  
+IP
+ARP
+ICMP
 
 **Network access layer**:
 
