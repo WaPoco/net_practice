@@ -57,11 +57,14 @@ For example:
 
 local ip for internal use:
 127.0.0.1 127.255.255.254
+# What is the broadcast address?
 
+# What is the network address?
+The network address is an unique identifier which will be asigned to each device in a network. 
 # What is the subnet mask?
 The subnetmask is a 32 bit long number and useful to calculate the ip range .
 
 What is subnetting?
 What is a router?
+What is a switch?
 What is IP forwarding?
-What is the broadcast address?
