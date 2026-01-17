@@ -1,8 +1,12 @@
 # net_practice
+*This project has been created as part the 42 curriculum by vpogorel.*
+
+# Description
 The goal of this project was to familiarize ourselves with IP addressing within the TCP/IP model. We had to configure the IP adresses and network masks of 10 simulated networks with routers, switches, a internet gateway and computers.
 ![Level 3](https://raw.githubusercontent.com/WaPoco/net_practice/main/net_practice.1.6/net_practice/netpractice.png)
 
-# What is TCP/IP model?
+
+## What is TCP/IP model?
 It's a framework of protocols that ensures the transmission of data across networks (including the internet). The communication protocols are organized in 4 layers of different purpose: **Application, Transport, Internet, and Network Access**.
 
 **Application Layer**
@@ -21,6 +25,7 @@ Protocols that ensures delivery of data packets between applications on differen
 Most common are TCP or UDP. TCP is more reliable because it ensures the delivery of data packets. On the other side UPD (User Datagram protocol) is faster but doesn't garantee the arrival in the rigth order. The use cases for UDP: Streaming (video/audio), online gaming, VoIP, DNS.
 
 ***Internet layer***:
+
 In a network the internet protocol IP asigns each device a unique logical address (IP address). In order to send data to the destination a router builds bridges between networks and routs the data to the destination. The core functionality of this layer is to pick a route and deliver the packet with IPv4 or IPv6.  
 IP : 
 ARP : 
@@ -72,3 +77,9 @@ What is a router?
 What is a switch?
 A switch is device that forwards data to a mcadresses in a network.
 What is IP forwarding?
+
+# Instructions
+
+
+
+# Resources
