@@ -2,12 +2,12 @@
 *This project has been created as part the 42 curriculum by vpogorel.*
 
 # Description
-The goal of this project was to familiarize ourselves with IP addressing within the TCP/IP model. We had to configure the IP adresses and network masks of 10 simulated networks with routers, switches, a internet gateway and computers.
+The goal of this project was to familiarize ourselves with IP addressing within the TCP/IP model. We had to configure the IP adresses and network masks of 10 simulated networks with routers, switches and connected computers.
 <p align="left">
 <img src="https://raw.githubusercontent.com/WaPoco/net_practice/main/net_practice.1.6/net_practice/netpractice.png" width="1000" height="800">
 </p>
 
-## What is TCP/IP model?
+## What is the TCP/IP model?
 It's a framework of protocols that ensures the transmission of data across networks (including the internet). The communication protocols are organized in 4 layers of different purpose: **Application, Transport, Internet, and Network Access**.
 
 **Application Layer**
@@ -23,11 +23,11 @@ Consists of different protocols that are necessary to communicate between applic
 ***Transport layer***:
 
 Protocols that ensures delivery of data packets between applications on different devices:
-Most common are TCP or UDP. TCP is more reliable because it ensures the delivery of data packets. On the other side UPD (User Datagram protocol) is faster but doesn't garantee the arrival in the rigth order. The use cases for UDP: Streaming (video/audio), online gaming, VoIP, DNS.
+Most common are TCP or UDP. TCP is more reliable because it ensures the delivery of data packets. On the other side UPD (User Datagram protocol) is faster but doesn't garantee the arrival in the rigth order. The use cases for UDP: Streaming (video/audio), online gaming or VoIP
 
 ***Internet layer***:
 
-In a network the internet protocol IP asigns each device a unique logical address (IP address). In order to send data to the destination a router builds bridges between networks and routs the data to the destination. The core functionality of this layer is to pick a route and deliver the packet with IPv4 or IPv6.  
+In a network the internet protocol IP asigns each device a unique logical address (IP address). In order to send data to the destination a router connects networks and routs the data to the destination with the ip. The core functionality of this layer is to pick a route and deliver the packet to IP address.  
 IP : 
 ARP : 
 ICMP
@@ -35,6 +35,7 @@ ICMP
 **Network access layer**:
 
 physical transmission (Wi-fi, ethernet)
+
 ### Example:
 
 You watching a video on a website.
