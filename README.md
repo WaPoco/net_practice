@@ -82,7 +82,9 @@ Subnetting describes the division of network into smaller subnetworks. Depeding 
 ### What is supernetting?
 
 ### What is a router and a default gateway?
-The router is a device that connects networks and transmits data to other devices. Your internet service provider (ISP) assigns a public ip to your router.
+A router is a network device that connects networks and routs data between them. It makes forwarding desicion based on the ip address and routing tables. A Internet Service Provider (ISP) assigns a public ip to the router in order to connect the local network (lan) to the internet.
+...
+
 When device wants to send a message to another network it has will send the message to the router (default gateway) which will look in the routing table for a the next hop.
 
 ### What is a switch?
