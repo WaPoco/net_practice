@@ -43,11 +43,11 @@ Application layer: HTTPS
 
 Transport layer: UDP
 
-# What is TCP?
+### What is TCP?
 
 The Transmission Control Protocol (TCP) is set of rules that governs how computers communicate reliably over a network. Therefore it breaks data into small packets, sends them over the network and ensures they are delivered error free and in the correct order at the recipient.
 
-# What is the IP and IP address?
+### What is the IP and IP address?
 The **Internet protocoll (IP)** is a protocoll and used for routing and addressing across networks. In **IPv4** an address is a **32-bit** long number and is divided into **4 octets** (8-bit-segments).
 
 "number1.number2.number3.number4" or "XXXXXXXX.XXXXXXXX.XXXXXXXXX.XXXXXXXXX"
@@ -66,25 +66,26 @@ For example:
 local ip for internal use:
 127.0.0.1 127.255.255.254
 
-## What is the broadcast address?
+### What is the broadcast address?
 Broadcast address is the address that sends to every host of a network a message.
 
-## What is the network address?
+### What is the network address?
 The network address is an unique identifier which will be assigned to each device in a network. 
 
-## What is the subnet mask?
+### What is the subnet mask?
 The subnetmask is a 32 bit long number and useful to calculate the network or host address of ip address.
 
-## What is subnetting?
+### What is subnetting?
 Subnetting describes the division of network into smaller subnetworks. Depeding of bits in the netmask you can devide the network into smaller networks.
 
-## What is supernetting?
+### What is supernetting?
 
-## What is a router?
+### What is a router?
 The router is a device that connects networks and transmits data to other devices. Your internet service provider (ISP) assigns a public ip 
-## What is a switch?
+
+### What is a switch?
 A switch is device that forwards data to a mcadresses in a network.
-## What is IP forwarding?
+### What is IP forwarding?
 
 # Instructions
 
