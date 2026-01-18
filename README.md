@@ -37,7 +37,7 @@ The core functionality of this layer are logical addressing (IP addressing), rou
 
 **Network access layer**:
 
-physical transmission (Wi-fi, ethernet)
+The Network Access Layer is responsible for moving data between devices on the same physical network (Wi-fi, ethernet, ...).
 
 ### Example:
 
@@ -83,11 +83,11 @@ The subnetmask is a 32 bit long number and useful to calculate the network or ho
 ### What is subnetting?
 Subnetting describes the division of network into smaller subnetworks. Depeding of bits in the netmask you can devide the network into smaller networks.
 
-### What is a router and a default gateway?
+### What is a router?
 A router is a network device that connects networks and routs data between them. It makes forwarding decision based on the ip address and routing tables. A Internet Service Provider (ISP) assigns a public ip to the router in order to connect the local network (lan) to the internet.
 
 ### What is a default gateway?
-When device wants to send a message to another network it has will send the message to the router (default gateway) which will look in the routing table for a the next hop.
+A default gateway is the router that a device uses to send traffic to another network. When a host wants to communicate with an IP address outside its local network, it forwards the packet to the default gateway, which then consults its routing table to determine the next hop.
 
 ### What is a switch?
 A switch is network device that connects mutiple devices in lan and forwards data only to devices with a corresponding MAC address.
