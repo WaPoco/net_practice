@@ -22,8 +22,12 @@ Consists of different protocols that are necessary to communicate between applic
 
 ***Transport layer***:
 
-Protocols that ensures delivery of data packets between applications on different devices:
-Most common are TCP or UDP. TCP is more reliable because it ensures the delivery of data packets. On the other side UPD (User Datagram protocol) is faster but doesn't garantee the arrival in the rigth order. The use cases for UDP: Streaming (video/audio), online gaming or VoIP
+The transport layer is responsible for the transmission of data between two services on different devices. It provides protocols that ensures delivery of data packets between these applications.
+
+Most common transport layer protocols are TCP or UDP.
+
+**TCP (Transmission Control Protocoll)** garantees a connection by ensuring data delivery through error detection, retransmission of lost packets and correct ordering of data (contenction oriented data delivery).
+On the other side ***UPD (User Datagram protocol)*** is faster and connectionless protocol that doesn't garantee the delivery. It is commenly used in applications where speed is more important than reliability (Streaming (video/audio), online gaming or VoIP (Voice over IP)),
 
 ***Internet layer***:
 
@@ -47,6 +51,7 @@ Transport layer: UDP
 The Transmission Control Protocol (TCP) is set of rules that governs how computers communicate reliably over a network. Therefore it breaks data into small packets, sends them over the network and ensures they are delivered error free and in the correct order at the recipient.
 
 ### What is the IP and IP address?
+
 The **Internet protocoll (IP)** is a protocoll and used for routing and addressing across networks. In **IPv4** an address is a **32-bit** long number and is divided into **4 octets** (8-bit-segments).
 
 "number1.number2.number3.number4" or "XXXXXXXX.XXXXXXXX.XXXXXXXXX.XXXXXXXXX"
