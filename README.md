@@ -90,7 +90,7 @@ A router is a network device that connects networks and routs data between them.
 When device wants to send a message to another network it has will send the message to the router (default gateway) which will look in the routing table for a the next hop.
 
 ### What is a switch?
-A switch is device that forwards data to a mcadresses in a network.
+A switch is network device that connects mutiple devices in lan and forwards data only to devices with a corresponding MAC address.
 
 # Instructions
 
@@ -116,7 +116,8 @@ To run and use this project:
   - Suggesting subnet allocations based on user input
   - Validating connectivity between devices
   - Generating sample configuration files for each level
+  - genarating descriptions of network terms
 - **Tutorials and Articles:**  
-  - [Networking Fundamentals Tutorial](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.html)  
+  - [Networking Fundamentals Tutorial](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm)  
   - [Subnetting Guide](https://www.subnetting.net/)
   - [IP calcualator] (https://jodies.de/ipcalc)
