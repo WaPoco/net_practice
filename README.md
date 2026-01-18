@@ -117,5 +117,6 @@ To run and use this project:
   - Validating connectivity between devices
   - Generating sample configuration files for each level
 - **Tutorials and Articles:**  
-  - [Networking Fundamentals Tutorial](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm)  
+  - [Networking Fundamentals Tutorial](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.html)  
   - [Subnetting Guide](https://www.subnetting.net/)
+  - [IP calcualator] (https://jodies.de/ipcalc)
