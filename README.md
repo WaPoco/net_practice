@@ -108,9 +108,10 @@ To run and use this project:
 # Resources
 
 - **Networking References:**  
-  - TCP/IP Basics: [https://www.ietf.org](https://www.ietf.org)  
+  - TCP/IP Basics: [https://www.ietf.org](https://www.ietf.org), [https://edu.anarcho-copy.org/TCP%20IP%20-%20Network/TCP-IP%20For%20Dummies.pdf]  
   - OSI Model Overview: [https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-the-osi-model.html](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-the-osi-model.html)  
-  - Routers and Switches: [https://networklessons.com](https://networklessons.com)  
+  - Routers and Switches: [https://networklessons.com](https://networklessons.com)
+
 - **AI Usage:**  
   AI was used to assist in [e.g., generating configuration templates, providing hints for exercises, verifying network setups]. Specific tasks include:
   - Suggesting subnet allocations based on user input
@@ -120,4 +121,4 @@ To run and use this project:
 - **Tutorials and Articles:**  
   - [Networking Fundamentals Tutorial](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm)  
   - [Subnetting Guide](https://www.subnetting.net/)
-  - [IP calcualator] (https://jodies.de/ipcalc)
+  - [IP calculator] (https://jodies.de/ipcalc)
