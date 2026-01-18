@@ -27,10 +27,8 @@ Most common are TCP or UDP. TCP is more reliable because it ensures the delivery
 
 ***Internet layer***:
 
-In a network the internet protocol IP asigns each device a unique logical address (IP address). In order to send data to the destination a router connects networks and routs the data to the destination with the ip. The core functionality of this layer is to pick a route and deliver the packet to IP address.  
-IP : 
-ARP : 
-ICMP
+The Internet layer is responsible for the identification of computers within a network and the selection of the most efficient paths or routes between networks. The Internet Protocol (IP) provides for each device a unique 32 bit number (ip address). Based of the destination IP the protocol picks the most efficient paths to reach the destination host.
+The core functionality of this layer are logical addressing (IP addressing), rounting (selecting the best path) and packet forwarding to the destination network. 
 
 **Network access layer**:
 
