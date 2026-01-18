@@ -27,6 +27,7 @@ The transport layer is responsible for the transmission of data between two serv
 Most common transport layer protocols are TCP or UDP.
 
 **TCP (Transmission Control Protocoll)** garantees a connection by ensuring data delivery through error detection, retransmission of lost packets and correct ordering of data (contenction oriented data delivery).
+
 On the other side ***UPD (User Datagram protocol)*** is faster and connectionless protocol that doesn't garantee the delivery. It is commenly used in applications where speed is more important than reliability (Streaming (video/audio), online gaming or VoIP (Voice over IP)),
 
 ***Internet layer***:
@@ -67,8 +68,8 @@ For example:
 |class B| 172.16.0.0 - 172.31.255.255|
 |class C| 192.168.0.0 - 192.168.255.255|
 
-local ip for internal use:
-127.0.0.1 127.255.255.254
+**local ip for internal use:**
+127.0.0.1 - 127.255.255.254
 
 ### What is the broadcast address?
 Broadcast address is the address that sends to every host of a network a message.
@@ -82,20 +83,39 @@ The subnetmask is a 32 bit long number and useful to calculate the network or ho
 ### What is subnetting?
 Subnetting describes the division of network into smaller subnetworks. Depeding of bits in the netmask you can devide the network into smaller networks.
 
-### What is supernetting?
-
 ### What is a router and a default gateway?
-A router is a network device that connects networks and routs data between them. It makes forwarding desicion based on the ip address and routing tables. A Internet Service Provider (ISP) assigns a public ip to the router in order to connect the local network (lan) to the internet.
-...
+A router is a network device that connects networks and routs data between them. It makes forwarding decision based on the ip address and routing tables. A Internet Service Provider (ISP) assigns a public ip to the router in order to connect the local network (lan) to the internet.
 
+### What is a default gateway?
 When device wants to send a message to another network it has will send the message to the router (default gateway) which will look in the routing table for a the next hop.
 
 ### What is a switch?
 A switch is device that forwards data to a mcadresses in a network.
-### What is IP forwarding?
 
 # Instructions
 
+To run and use this project:
 
-
+1. **Open the training interface:**  
+   Open `index.html` in a web browser.
+2. **Interact with the network simulation:**  
+   Configure devices, establish connections, and complete exercises as specified in each level.
+3. **Export configurations:**  
+   After completing a level, export your configuration. This generates a file containing your network setup.
+4. **Submission:**  
+   Place all 10 exported configuration files (one per level) in the root of your repository.
+   
 # Resources
+
+- **Networking References:**  
+  - TCP/IP Basics: [https://www.ietf.org](https://www.ietf.org)  
+  - OSI Model Overview: [https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-the-osi-model.html](https://www.cisco.com/c/en/us/solutions/enterprise-networks/what-is-the-osi-model.html)  
+  - Routers and Switches: [https://networklessons.com](https://networklessons.com)  
+- **AI Usage:**  
+  AI was used to assist in [e.g., generating configuration templates, providing hints for exercises, verifying network setups]. Specific tasks include:
+  - Suggesting subnet allocations based on user input
+  - Validating connectivity between devices
+  - Generating sample configuration files for each level
+- **Tutorials and Articles:**  
+  - [Networking Fundamentals Tutorial](https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm)  
+  - [Subnetting Guide](https://www.subnetting.net/)
